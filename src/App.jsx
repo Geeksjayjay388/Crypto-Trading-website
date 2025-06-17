@@ -1,7 +1,8 @@
 import Navbar from './Components/Navbar';
 import Container from './Components/Container';
 import Activity from './Components/Activity';
-import bg1 from './assets/bg.jpg';
+import Features from './Components/Features';
+import Footer from './Components/Footer';
 function App() {
   return (
     <div className="relative w-full h-screen">
@@ -15,7 +16,8 @@ function App() {
         <Navbar />
         <Container />
         <Activity />
-        
+        <Features />
+        <Footer />
       </div>
     </div>
   );
